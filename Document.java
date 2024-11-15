@@ -7,7 +7,10 @@ public class Document {
         words = word ;
         this.id = id;
     }
-    
+    public Document( int id) {
+       
+        this.id = id;
+    }
     
    
     
